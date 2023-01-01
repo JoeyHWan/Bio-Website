@@ -4,7 +4,7 @@
   "description": "This is my bio-website",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d BIO"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/JoeyHWan/Bio-Website/issues"
   },
-  "homepage": "https://github.com/JoeyHWan/Bio-Website#readme",
+  "homepage": "https://github.com/JoeyHWan/Bio-Website",
   "keywords": [],
   "dependencies": {
     "gh-pages": "^4.0.0"
