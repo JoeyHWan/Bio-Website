@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/JoeyHWan/Bio-Website/issues"
   },
-  "homepage": "https://github.com/JoeyHWan/Bio-Website",
+  "homepage": "https://joeyhwan.github.io/Bio-Website/",
   "keywords": [],
   "dependencies": {
     "gh-pages": "^4.0.0"
