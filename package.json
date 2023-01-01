@@ -1,0 +1,23 @@
+{
+  "name": "bio",
+  "version": "1.0.0",
+  "description": "This is my bio-website",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d BIO"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeyHWan/Bio-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoeyHWan/Bio-Website/issues"
+  },
+  "homepage": "https://github.com/JoeyHWan/Bio-Website#readme",
+  "keywords": [],
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
