@@ -4,3 +4,6 @@ body::before{
     height: 60px;
 }
 
+.bg-dark{
+    color:#000;
+}
