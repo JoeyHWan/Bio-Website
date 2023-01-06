@@ -13,7 +13,7 @@ var skills = document.getElementById('extracurriculars');
 skills.style.borderTop = 'solid 100px #DC3545';
 
 //Javascript to make my buttons turn lighter after being clicked 
-var button = document.getElementById('but').addEventListener('click', buttonClick);
+/*var button = document.getElementById('but').addEventListener('click', buttonClick);
 
 function buttonClick(){
     document.getElementById('but').style.backgroundColor = '#FF7276';
@@ -81,8 +81,7 @@ var button9 = document.getElementById('but9').addEventListener('click', buttonCl
 function buttonClick9(){
     document.getElementById('but9').style.backgroundColor = '#FF7276';
 
-}
-
+} */
 
 
 
