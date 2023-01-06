@@ -14,7 +14,7 @@
 
 <body>
     <!-- Navbar-->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-5 fixed-top">
+    <nav id="navbar" class="navbar navbar-expand-lg bg-dark navbar-dark py-5 fixed-top">
         <div class="container">
             <a href="#" class="navbar-brand">Joey Wan</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
@@ -49,7 +49,7 @@
                     <h1 class="m-5">About Me</h1>
                     <p class="lead m-5">Hi there! I'm Joey Wan. I'm currently in my first year studying Biomedical
                         Engineering as an undergraduate.I'm
-                        passionate about biology, technology, and human behavior. I am super interested in web
+                        passionate about biology, technology, and human behavior. I am interested in web
                         developpment, and have experience in programming in multiple different languages such as C,
                         Python, Html, CSS, JavaScript.</p>
                     <h1 class="m-5">Education</h1>
@@ -68,19 +68,19 @@
         </div>
     </section>
     <!--Skills-->
-    <section id="skills" class="bg-dark text-light  text-center text-sm-start">
+    <section id="skills" class="bg-dark text-light text-center text-sm-start">
         <div class="container">
             <h2 class="text-center text-light mb-4 py-5">Technical Skills</h2>
             <div class="text-center">
-                <button type="button" class="btn btn-danger">Python</button>
-                <button type="button" class="btn btn-danger">C</button>
-                <button type="button" class="btn btn-danger">HTML</button>
-                <button type="button" class="btn btn-danger">CSS</button>
-                <button type="button" class="btn btn-danger">Git</button>
-                <button type="button" class="btn btn-danger">Matlab</button>
-                <button type="button" class="btn btn-danger">Bootstrap</button>
-                <button type="button" class="btn btn-danger">SolidWorks</button>
-                <button type="button" class="btn btn-danger">JavaScript</button>
+                <button id="but" type="button" class="btn btn-danger border border-dark">Python</button>
+                <button id="but1" type="button" class="btn btn-danger border border-dark ">C</button>
+                <button id="but2" type="button" class="btn btn-danger border border-dark ">HTML</button>
+                <button id="but3" type="button" class="btn btn-danger border border-dark ">CSS</button>
+                <button id="but4" type="button" class="btn btn-danger border border-dark ">Git</button>
+                <button id="but5" type="button" class="btn btn-danger border border-dark ">Matlab</button>
+                <button id="but6" type="button" class="btn btn-danger border border-dark ">Bootstrap</button>
+                <button id="but7" type="button" class="btn btn-danger border border-dark ">SolidWorks</button>
+                <button id="but8" type="button" class="btn btn-danger border border-dark ">JavaScript</button>
             </div>
         </div>
     </section>
@@ -96,10 +96,10 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="card bg-danger">
                         <div class="card-body text-center">
-                            <h3 class="card-header mb">Assistant Chef</h3>
+                            <h4 class="card-header mb">Assistant Chef</h4>
                             <h6 class="card-title mb">Nov'22-Dec'30</h6>
                             <p class="card-text">I worked in Ball Katsu, a famous korean fast food in their first newly
-                                opened toronto branch chain helping in the kitchen .</p>
+                                opened toronto branch chain prepare food in the kitchen.</p>
                             <a href="https://www.instagram.com/yeondonballkatsu_toronto/">
                                 <i class="bi bi-instagram text-white mx-1">
                                     <p>Ball Katsu</p>
@@ -111,10 +111,10 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="card bg-danger">
                         <div class="card-body text-center">
-                            <h3 class="card-header mb">Swim Instructor</h3>
+                            <h4 class="card-header mb">Swim Instructor</h4>
                             <h6 class="card-title mb">Apr'16-June'20</h6>
                             <p class="card-text">I was in my high-school swim team, and I worked for my coach at Lucky
-                                Swimmer assisting in teaching young swimmers.</p>
+                                Swimmer assisting in teaching young swimmers strokes.</p>
                             <a href="https://www.instagram.com/lucky_swimmer/">
                                 <i class="bi bi-instagram text-white mx-1">
                                     <p>Lucky Swimmer</p>
@@ -126,7 +126,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="card bg-danger">
                         <div class="card-body text-center">
-                            <h3 class="card-header mb">Cashier</h3>
+                            <h4 class="card-header mb">Cashier</h4>
                             <h6 class="card-title mb">Dec'25-Present</h6>
                             <p class="card-text">Elisa Food is connected to the famous korean fast food
                                 chain Ball Katsu. I worked at Ball Katsu, and decided to move over to work as a cashier.
@@ -142,7 +142,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="card bg-danger">
                         <div class="card-body text-center">
-                            <h3 class="card-header mb">Event Setup Staff</h3>
+                            <h4 class="card-header mb">Event Setup Staff</h4>
                             <h6 class="card-title mb">Dec'5-Present</h6>
                             <p class="card-text">Toronto Metropolitan University MAC adapted the original home of the
                                 Toronto Maple Leafs from the National Hockey League.
@@ -170,12 +170,12 @@
                     <div class="card bg-dark text-light mb-3" style="">
                         <div class="row no-gutters">
                             <div class="col-md-4">
-                                <img src="img/igniter.png" class="card-img" alt="">
+                                <img src="img/igniter.png" class="card-img img-fluid w-30 d-none d-sm-block" alt="">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h1 class="card-title text-center mb-3 p-5">Metropolitan Aerospace and Combustion Hub(MACH)</h1>
-                                    <p class="card-text text-centre">MACH is a student run group with the goal of being the first
+                                    <h1 class="card-title text-center mb p-5">Metropolitan Aerospace and Combustion Hub(MACH)</h1>
+                                    <p class="card-text text-centre mb">MACH is a student run group with the goal of being the first
                                         team in Canada to fly a
                                         bipropellant liquid rocket engine. We're currently manufacturing our first
                                         engine for testing. I had
@@ -193,18 +193,18 @@
                     <div class="card bg-dark text-light mb-3" style="">
                         <div class="row no-gutters">
                             <div class="col-md-4">
-                                <img src="img/commitee.png" class="card-img" alt="">
+                                <img src="img/commitee.png" class="card-img img-fluid w-30 d-none d-sm-block" alt="">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h1 class="card-title text-center mb-3 p-5">First Year Engineering Office(FYEO)</h1>
-                                    <p class="card-text">The FYEO's goal is giving first year's a smooth transition into
+                                    <p class="card-text">The FYEO's goal is giving first year engineers a smooth transition into
                                         university. We host orientation events, study halls, and tutoring sessions. I am
-                                        part of the first year commitee transmiting the concerns of the first year's to
+                                        part of the first year commitee transmiting the concerns of the first year engineers to
                                         the FYEO.
                                     </p>
                                     <a href="https://www.torontomu.ca/first-year-engineering-office/" target="_blank" rel="noopener noreferrer" class="btn btn-danger">Read More</a>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                  
                                 </div>
                             </div>
                         </div>
@@ -213,6 +213,7 @@
             </div>
         </div>
     </section>
+    <script src="dom.js"></script>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
