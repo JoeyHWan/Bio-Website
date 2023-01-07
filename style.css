@@ -4,3 +4,13 @@ body::before{
     height: 60px;
 }
 
+
+.btn.btn-danger.border.border-dark{
+    transition: .5s font-size;
+  }
+
+
+  
+.btn.btn-danger.border.border-dark:hover{
+    font-size: 1.4em;
+}
