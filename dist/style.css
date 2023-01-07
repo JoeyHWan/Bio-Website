@@ -4,13 +4,48 @@ body::before{
     height: 60px;
 }
 
-
+/*making the buttons responsive*/
 .btn.btn-danger.border.border-dark{
     transition: .5s font-size;
   }
 
 
-  
+
 .btn.btn-danger.border.border-dark:hover{
     font-size: 1.4em;
 }
+
+
+.card-body.text-center{
+    transition:5s font-size;
+
+}
+.card-body.text-center:hover{
+    font-size: 2em;
+
+}
+
+
+
+/* navbar effects */
+.navbar-toggler {
+    
+    background-color: #DC3545;
+  } 
+
+
+
+.navbar-brand{
+    font-size: x-large;
+}
+
+
+
+.navbar.navbar-expand-lg.bg-dark.navbar-dark.py-5.fixed-top{
+    
+    font-weight: bold;
+    font-size: large;
+
+}
+
+
