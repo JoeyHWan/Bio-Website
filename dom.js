@@ -1,17 +1,25 @@
 //Border at top so navbar doesn't skip the section title
 
-var skills = document.getElementById('about');
-skills.style.borderTop = 'solid 100px #DC3545';
+var borders = document.getElementById('about');
+borders.style.borderTop = 'solid 100px #DC3545';
 
-var skills = document.getElementById('skills');
-skills.style.borderTop = 'solid 100px #212529';
+var borders = document.getElementById('skills');
+borders.style.borderTop = 'solid 100px #212529';
 
-var skills = document.getElementById('work');
-skills.style.borderTop = 'solid 100px #212529';
+var borders = document.getElementById('work');
+borders.style.borderTop = 'solid 100px #212529';
 
-var skills = document.getElementById('extracurriculars');
-skills.style.borderTop = 'solid 100px #DC3545';
+var borders = document.getElementById('extracurriculars');
+borders.style.borderTop = 'solid 100px #DC3545';
 
+var borders = document.getElementById('projects');
+borders.style.borderTop = 'solid 100px #212529';
+
+var borders = document.getElementById('projects');
+borders.style.borderBottom = 'solid 20px #212529';
+
+var borders = document.getElementById('projects');
+borders.style.borderBottom = 'solid 100px #DC3545';
 //Javascript to make my buttons turn lighter after being clicked 
 /*var button = document.getElementById('but').addEventListener('click', buttonClick);
 
