@@ -4,6 +4,15 @@ body::before{
     height: 60px;
 }
 
+.m-5{
+    font-weight:500;
+}
+
+img#profile{
+    border-radius: 50%;
+    height: 600px;
+    width: 600px;
+}
 /*making the buttons responsive*/
 .btn.btn-danger.border.border-dark{
     transition: .5s font-size;
@@ -17,21 +26,19 @@ body::before{
 
 
 .card-body.text-center{
-    transition:5s font-size;
+    transition:4s font-size;
 
 }
 .card-body.text-center:hover{
     font-size: 2em;
+    font-weight: 600;
 
 }
 
 
 
 /* navbar effects */
-.navbar-toggler {
-    
-    background-color: #DC3545;
-  } 
+
 
 
 
@@ -46,6 +53,11 @@ body::before{
     font-weight: bold;
     font-size: large;
 
+}
+
+
+#navbar{
+    background-color: black;
 }
 
 
