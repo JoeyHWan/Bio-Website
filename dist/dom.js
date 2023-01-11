@@ -20,6 +20,20 @@ borders.style.borderBottom = 'solid 20px #212529';
 
 var borders = document.getElementById('projects');
 borders.style.borderBottom = 'solid 100px #DC3545';
+
+var button = document.getElementById('but1').addEventListener('click', buttonClick);
+
+function buttonClick(){
+    document.getElementById('but').style.backgroundColor = '#FF7276';
+
+}
+
+var button = document.getElementById('but2').addEventListener('click', buttonClick);
+
+function buttonClick(){
+    document.getElementById('but2').style.backgroundColor = '#FF7276';
+
+}
 //Javascript to make my buttons turn lighter after being clicked 
 /*var button = document.getElementById('but').addEventListener('click', buttonClick);
 
