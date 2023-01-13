@@ -23,7 +23,7 @@ borders.style.borderBottom = 'solid 100px #DC3545';
 
 var button = document.getElementById('but1').addEventListener('click', buttonClick);
 
-function buttonClick(){
+/*function buttonClick(){
     document.getElementById('but').style.backgroundColor = '#FF7276';
 
 }
